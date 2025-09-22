@@ -20,6 +20,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* Form group */
 .form-group {
     margin-bottom: 15px;
     position: relative;
@@ -39,7 +40,7 @@ input, select {
     border: 1px solid #ccc;
 }
 
-.suggestions {
+#suggestions {
     border: 1px solid #ccc;
     max-height: 120px;
     overflow-y: auto;
@@ -52,12 +53,12 @@ input, select {
     width: calc(100% - 60px);
 }
 
-.suggestions div {
+#suggestions div {
     padding: 8px;
     cursor: pointer;
 }
 
-.suggestions div:hover {
+#suggestions div:hover {
     background: #f0f0f0;
 }
 
@@ -77,6 +78,7 @@ button:hover {
     background: #0056b3;
 }
 
+/* Styling hasil */
 #hasil {
     margin-top: 20px;
     padding: 15px;
